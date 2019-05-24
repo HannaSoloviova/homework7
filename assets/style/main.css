@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap');
+
+:root {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	width: 2551px;
+	background-color: #ffffff;
+	font-family: "Lato", sans-serif;
+}
+
+.container {
+	min-height: 100vh;
+	padding-left: 205px;
+	padding-top: 215px;
+}
+
+.header-logo img:first-child {
+	padding: 0 50%;
+}
+
+.header-logo img:nth-child(2) {
+	padding: 0 41%;
+}
+
+.header-logo img:last-child {
+	padding: 0 50%;
+}
+
+.header-section {
+	font-size: 0;
+}
+
+.header-section::before,
+.header-section::after {
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	width: 100%;
+	height: 5px;
+	position: relative;
+	background-color: #e1e1e1;
+	margin: 62px 0;
+}
+
+header.header-section div {
+	display: inline-block;
+	vertical-align: middle;
+	color: #3b3e44;
+}
+
+.header-section div:first-child {
+	width: 313px;
+	height: 172px;
+	font-size: 62px;
+	font-weight: 700;
+}
+
+.first-column p {
+	margin: 0;
+	text-transform: uppercase;
+	text-align: right;
+}
+
+.second-column p {
+	margin: 0;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.header-section div:nth-child(2) {
+	width: 313px;
+	height: 172px;
+	font-size: 62px;
+	font-weight: 700;
+	background-color: #ffc600;
+}
+
+.header-section div:nth-child(3) {
+	width: 313px;
+	height: 172px;
+	font-size: 29px;
+	font-weight: 300;
+	margin-left: 36px;
+}
+
+.header-section div:nth-child(4) {
+	width: 313px;
+	height: 172px;
+	background-color: #ffc600;
+	font-size: 28px;
+	font-weight: 400;
+}
+
+.header-section div:last-child {
+	width: 626px;
+	height: 172px;
+	font-size: 30px;
+}
+
+.addres-sample p {
+	margin: 0;
+	color: #b0b6bd;
+}
+
+.navigation-link {
+	text-decoration: none;
+	color: #3b3e44;
+	font-weight: 700;
+}
+
+.navigation-list {
+	list-style: none;
+}
+
+.first-section {
+	font-size: 0;
+}
+
+section.first-section div {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 42px;
+	font-weight: 300;
+	color: #8b8c90;
+}
+
+.left-block p {
+	margin: 0;
+	width: 340px;
+}
+
+.left-block p:first-child {
+	padding-top: 180px;
+}
+
+.left-block {
+	margin-left: 215px;
+}
+
+.letter-appeal {
+	color: #2d2d2d;
+	font-size: 42px;
+	font-weight: 700;
+	margin-bottom: 83px;
+	text-align: left;
+}
+
+.right-block {
+	width: 1551px;
+	margin-left: 159px;
+}
+
+.right-block p {
+	color: #2d2d2d;
+}
+
+.second-section div {
+	margin-top: 92px;
+	margin-left: 590px;
+}
+
+.footer {
+	padding: 0 50%;
+	margin-top: 573px;
+	margin-bottom: 195px;
+}
